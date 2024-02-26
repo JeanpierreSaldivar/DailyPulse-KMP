@@ -1,7 +1,5 @@
 package com.example.dailypulse.di
 
-import com.example.dailypulse.articles.ArticlesService
-import com.example.dailypulse.articles.ArticlesUseCase
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.serialization.kotlinx.json.json

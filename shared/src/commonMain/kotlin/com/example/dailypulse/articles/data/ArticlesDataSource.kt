@@ -1,4 +1,4 @@
-package com.example.dailypulse.articles
+package com.example.dailypulse.articles.data
 
 import example.dailypulse.db.DailyPulseDatabase
 
@@ -10,7 +10,7 @@ class ArticlesDataSource(private val database: DailyPulseDatabase) {
     fun insertArticles(articles: List<ArticleRaw>){
         database.dailyPulseDatabaseQueries.transaction {
             articles.forEach {articleRaw ->
-                insertArticles(articles)
+                insertArticle(articleRaw)
             }
         }
     }

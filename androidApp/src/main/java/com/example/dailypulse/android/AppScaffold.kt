@@ -12,7 +12,6 @@ import androidx.navigation.compose.rememberNavController
 import com.example.dailypulse.android.screens.AboutScreen
 import com.example.dailypulse.android.screens.ArticlesScreen
 import com.example.dailypulse.android.screens.Screens
-import com.example.dailypulse.articles.ArticlesViewModel
 
 
 @Composable
